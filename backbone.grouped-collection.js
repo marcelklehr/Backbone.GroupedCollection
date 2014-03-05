@@ -9,6 +9,8 @@
     _ = require('underscore');
     Backbone = require('backbone');
   }
+  
+  require('Backbone.VirtualCollection')
 
   /**
    * Checks a parameter from the obj
